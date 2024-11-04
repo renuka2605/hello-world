@@ -1,6 +1,6 @@
 # RWIT HelloWorld
 
-    ``rwit/hello-world``
+    ``rw-infotech/hello-world``
 
  - [Main Functionalities](#markdown-header-main-functionalities)
  - [Installation](#markdown-header-installation)
@@ -18,7 +18,7 @@ Simple Magento 2 module
 ### Type 1: Zip file
 
  - Unzip the zip file in `app/code/RWIT`
- - Enable the module by running `php bin/magento module:enable RWIT_HelloWorld`
+ - Enable the module by running `php bin/magento module:enable RW_Infotech_HelloWorld`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -30,7 +30,7 @@ Simple Magento 2 module
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
  - Install the module composer by running `composer require rwit/hello-world`
- - enable the module by running `php bin/magento module:enable RWIT_HelloWorld`
+ - enable the module by running `php bin/magento module:enable RW_Infotech_HelloWorld`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
