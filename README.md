@@ -18,7 +18,7 @@ Simple Magento 2 module
 ### Type 1: Zip file
 
  - Unzip the zip file in `app/code/RW-Infotech`
- - Enable the module by running `php bin/magento module:enable RW_Infotech_HelloWorld`
+ - Enable the module by running `php bin/magento module:enable RWInfotech_HelloWorld`
  - Apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
@@ -30,7 +30,7 @@ Simple Magento 2 module
     - public github repository as vcs
  - Add the composer repository to the configuration by running `composer config repositories.repo.magento.com composer https://repo.magento.com/`
  - Install the module composer by running `composer require rw-infotech/hello-world`
- - enable the module by running `php bin/magento module:enable RW_Infotech_HelloWorld`
+ - enable the module by running `php bin/magento module:enable RWInfotech_HelloWorld`
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 

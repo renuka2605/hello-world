@@ -1,5 +1,5 @@
 <?php
-namespace RWIT\HelloWorld\Controller\Index;
+namespace RWInfotech\HelloWorld\Controller\Index;
 
 class Test extends \Magento\Framework\App\Action\Action
 {

@@ -3,13 +3,13 @@
     "description": "Basic startup module",
     "type": "magento2-module",
     "license": "OSL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "files": [
             "registration.php"
         ],
         "psr-4": {
-            "RWIT\\HelloWorld\\": ""
+            "RWInfotech\\HelloWorld\\": ""
         }
     },
     "authors": [
